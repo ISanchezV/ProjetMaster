@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3e40ba9355f343dc9daa80cc6e5ef1f, type: 3}
+  m_Name: DatabaseInventory
+  m_EditorClassIdentifier: 
+  inventoryCatalogue:
+    items:
+    - {fileID: 114355717776029732}
+    recipes: []
+  inventorySettings:
+    inventoryUIPrefab: {fileID: 0}
+    onDragGrabItem: 1
+    cursorDrag: {fileID: 0}
+    cursorDragHotspot: {x: 0, y: 0}
+    dragItemsToCombine: 1
+    inventoryStopTime: 0
+    canDropItems: 1
+    dropItemMaxDistance: 2
+--- !u!114 &114355717776029732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6c3b42562c09470ea31efe19c9d3dd9, type: 3}
+  m_Name: item.217416404
+  m_EditorClassIdentifier: 
+  uuid: 217416404
+  itemName:
+    content: Rock
+    postProcess: 0
+    translationID: 0
+  itemDescription:
+    content: A rock you can throw
+    postProcess: 0
+    translationID: 0
+  sprite: {fileID: 21300000, guid: 65259c5ea50a6fd43934fdf4d996e706, type: 3}
+  prefab: {fileID: 1304462923376304, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
+  price: 1
+  maxStack: 99
+  consumable: 1
+  actionsList: {fileID: 114019619527697710, guid: f08bcf1f9777a4aacbe8c7212ba829f3,
+    type: 2}

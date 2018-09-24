@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0d00339f58d4376918ded2a84e3ffd, type: 3}
+  m_Name: Hurt
+  m_EditorClassIdentifier: 
+  type: 1
+  rtcSimple: {fileID: 221584420158690038}
+  rtcLocomotion: {fileID: 221193248242316838}
+  rtcOther: {fileID: 0}
+--- !u!221 &221193248242316838
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Locomotion
+  m_Controller: {fileID: 9100000, guid: b6a6c19ecfb68436399931e717cd57b5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 68088270d078a4b3ea1ea1b0ca4e98cd, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4db74fa89a6584f29b7ae593155fb08f, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 1dcd06396bac64aefaf054deb75bdb5d, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: f689edba0fd634d57b5f1bf2836e7807, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: d145f9322a64a4fc693819c9692cd9d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4ee6dcd9146fe4194a7343a6e3d675c7, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 85b23640d68544ac7a1c096aa4fff7fb, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4ba010613fa9a4e3fba5f118e74ea230, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 35ef38a0a23d749e3afc4abb97c8bfa6, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: e6389b33f7ff84986a20a4dfeb64c694, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 5abe478b28007407ab44e9fbd0cc8a66, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 57ee1bee613194ac5903e6c4e6bfe854, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 19d1402bc85944e50801295d8191b71c, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 8b4d037890ef545eb8d72358954959f1, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: a58334245a3fb45109d2caf76f1f7e9d, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: dd0d13bd714fd4e30a29907b64393253, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 8d87aa4e07c41463ca07b8f7c615d42e, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: c59dd0fe722f14415ad4558a5f8fd3b6, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 6fbb6a0ea260e4d9ab7b131081b27db4, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: dd0d13bd714fd4e30a29907b64393253, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: a55a8e43adedd4aa4908a041d044a863, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: c59dd0fe722f14415ad4558a5f8fd3b6, type: 3}
+--- !u!221 &221584420158690038
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Simple
+  m_Controller: {fileID: 9100000, guid: 7e5e3872d84174d9a9ddf67745628fb5, type: 2}
+  m_Clips: []

@@ -1,0 +1,10 @@
+
+python( "import sys" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/HEO/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/python/2.7/')" );
+python( "sys.path.append('C:/depot/Robotoki_Resources/MASTER/code/LIVE/maya/2014/scripts/common/tools/')" );
+python( "import publishTools" );
+python( "reload(publishTools)" );
+
+python( "publishTools.publish_modelAsset( 'HEO','','','','environment','Nature/Rocks/rock_desertCliff_01','model','lo','001','C:/depot/Robotoki_Resources/HEO/assets/LIVE/environment/Nature/Rocks/rock_desertCliff_01/model/lo/v001/Nature_Rocks_rock_desertCliff_01_model_lo.mb.joshua.ochoa',notes='''init pass''',bypassedCheckList=[],addRecipients='' )" );

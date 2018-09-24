@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0d00339f58d4376918ded2a84e3ffd, type: 3}
+  m_Name: Drunk
+  m_EditorClassIdentifier: 
+  type: 1
+  rtcSimple: {fileID: 221584420158690038}
+  rtcLocomotion: {fileID: 221193248242316838}
+  rtcOther: {fileID: 0}
+--- !u!221 &221193248242316838
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Locomotion
+  m_Controller: {fileID: 9100000, guid: b6a6c19ecfb68436399931e717cd57b5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 68088270d078a4b3ea1ea1b0ca4e98cd, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4523237eeca14424f82755ffee9a7d48, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 1dcd06396bac64aefaf054deb75bdb5d, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: d018918f77f284e2dbc59f14f25e2793, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: d145f9322a64a4fc693819c9692cd9d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: e9d6dcc5e41024433a0956287732185b, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 85b23640d68544ac7a1c096aa4fff7fb, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 32c6bec2745084609ae01c6e6a080e20, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 35ef38a0a23d749e3afc4abb97c8bfa6, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 9359cc5264e99447bbf1da958b163f7e, type: 3}
+--- !u!221 &221584420158690038
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Simple
+  m_Controller: {fileID: 9100000, guid: 7e5e3872d84174d9a9ddf67745628fb5, type: 2}
+  m_Clips: []

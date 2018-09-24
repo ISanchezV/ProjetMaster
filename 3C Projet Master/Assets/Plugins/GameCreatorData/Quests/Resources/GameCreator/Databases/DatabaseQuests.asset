@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f735d8d0aa984e6cbccc634eb414ee1, type: 3}
+  m_Name: DatabaseQuests
+  m_EditorClassIdentifier: 
+  quests: {fileID: 11400000, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  list:
+  - {fileID: 114934204436581838, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114129349779339928, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114660375896551354, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114632845606473754, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114242437011870016, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114136459554440834, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114438852538020350, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  - {fileID: 114985990164937006, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  settings:
+    journalSkin: {fileID: 0}
+    questsHUDSkin: {fileID: 0}
+  questsTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: a4bbf3ff
+    m_LastClickedID: -803932
+    m_ExpandedIDs: 00aaf3ff76acf3ff0eb4f3ffa4bbf3ff00000000
+    m_RenameOverlay:
+      m_UserAcceptedRename: 0
+      m_Name: discover-5-inns
+      m_OriginalName: discover-5-inns
+      m_EditFieldRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_UserData: -803932
+      m_IsWaitingForDelay: 0
+      m_IsRenaming: 0
+      m_OriginalEventType: 0
+      m_IsRenamingFilename: 0
+      m_ClientGUIView: {fileID: 0}
+    m_SearchString: 

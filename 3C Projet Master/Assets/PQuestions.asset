@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b012a82ff7d4643b281a397612b1db, type: 3}
+  m_Name: PQuestions
+  m_EditorClassIdentifier: 
+  SheetName: Assets/Personality questions.xlsx
+  WorksheetName: PQuestions
+  dataArray:
+  - id: 1
+    category: N
+    questions: Does your mood often go up and down during a single session of game?
+    ingameactions: Fast mood changes (Affectiva) after frustrating situation (a puzzle
+      you're forced to lose)
+    answers: 0
+    value: 0
+    totalvalue: -1
+    personalitytype: Contemplative
+  - id: 2
+    category: E
+    questions: Do you prefer games with long dialogs and social interactions?
+    ingameactions: Have you gone out of your way to talk to NPCs when it wasn't mandatory?
+    answers: 0
+    value: 0
+    totalvalue: -1
+    personalitytype: 
+  - id: 3
+    category: P
+    questions: "A seller offers you to buy something you need but you don\u2019t have
+      the funds for. Do you accept being in debt to buy it? "
+    ingameactions: Do you go into considerable debt to buy something?
+    answers: 0
+    value: 0
+    totalvalue: -0.71428573
+    personalitytype: 
+  - id: 4
+    category: E
+    questions: Are you rather a lively gamer?
+    ingameactions: Jumping everywhere and running around with no purpose
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 5
+    category: P
+    questions: Do you always try to pick your equipment before everyone else is able
+      to?
+    ingameactions: Do you share the loot the others don't know anything about?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 6
+    category: P
+    questions: "You\u2019re offered an amulet with amazing immediate positive effects,
+      but unavoidable penalties on the long term. Would you accept it? "
+    ingameactions: Do you accept an amulet with a short time bonus and an inevitable
+      malus later on?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 7
+    category: P
+    questions: 'Do you tend to blame the game or other players when you lose and know
+      it is really your fault? '
+    ingameactions: Losing at a mockup battle with your teammates and blaming someone/something
+      else
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 8
+    category: P
+    questions: Would you rather play your own way or the way the game was intended
+      to be played?
+    ingameactions: Do you go out of the game's intended path to explore dangerous
+      zones?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 9
+    category: N
+    questions: 'Do you often skip dialogs and cinematics? '
+    ingameactions: Do you skip the initial cinematic/mandatory dialogs?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 10
+    category: N
+    questions: 'If a game lets you steal, do you do it? '
+    ingameactions: Do you steal a very tempting piece of equipment from a teammate?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 11
+    category: N
+    questions: 'Do you get upset easily when you lose at a game? '
+    ingameactions: Checking for anger (Affectiva) when losing
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 12
+    category: P
+    questions: Do you think marriage is old-fashioned and should be done away with?
+    ingameactions: 'Dialog question: do you consider marriage old-fashioned?'
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 13
+    category: E
+    questions: Do your friends often call you to get some life into a game night?
+    ingameactions: 'Dialog question: do your friends often call you for parties/game
+      night/etc?'
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 14
+    category: N
+    questions: "Do you often worry that you\u2019re not good enough?"
+    ingameactions: 'Dialog question: do you worry you''re not good enough for this
+      quest?'
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 15
+    category: E
+    questions: 'Do you tend to keep in the background in team conversations? '
+    ingameactions: Do you join the conversation between your teammates instead of
+      exploring on your own?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 16
+    category: N
+    questions: 'Do you worry when you make mistakes in a game? '
+    ingameactions: Checking for worry (Affectiva) when losing/making a mistake
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 17
+    category: P
+    questions: 'If you find a glitch in a game, do you exploit it to get a better
+      score? '
+    ingameactions: Do you use the glitch to get to a piece of loot otherwise not accessible?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 18
+    category: N
+    questions: Do you handle pressure well when everything depends on you to win?
+    ingameactions: 'Dialog question: are you holding up with the pressure of saving
+      the world?'
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 19
+    category: P
+    questions: Are the relationships you make on the strategic side than friendly?
+    ingameactions: 'Dialog question: are your teammates tools for your mission instead
+      of friends?'
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 20
+    category: N
+    questions: 'Would you feel lonely if you were excluded from your gaming community? '
+    ingameactions: 'Dialog question: would you feel lonely if you were doing your
+      quest alone? '
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 21
+    category: E
+    questions: Do the other players think of you as being very lively?
+    ingameactions: Did the others see you running around and jumping everywhere?
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 22
+    category: P
+    questions: Are you the kind of person who enjoys more playing in a community,
+      even if that means respecting its rules?
+    ingameactions: Choosing to go save your companions knowing they put rules on you
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: Possible answers
+    questions: Column1
+    ingameactions: 
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: 
+    questions: 
+    ingameactions: 
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: 
+    questions: 
+    ingameactions: 
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: 
+    questions: p < 0.5 faible chance de se tromper, plus c'est faible plus la chance
+      est faible
+    ingameactions: 
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: 
+    questions: 'Cronbach: 0.7 ou plus'
+    ingameactions: 
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 

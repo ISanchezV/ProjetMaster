@@ -1,0 +1,694 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba302213647f84325bde30c4de2a9e73, type: 3}
+  m_Name: Variables
+  m_EditorClassIdentifier: 
+  references:
+  - {fileID: 114360507924876796}
+  - {fileID: 114393899893016002}
+  - {fileID: 114549596537701274}
+  - {fileID: 114464124493200756}
+  - {fileID: 114425089975001438}
+  - {fileID: 114143063487922874}
+  - {fileID: 114564328571540758}
+  - {fileID: 114354005027849838}
+  - {fileID: 114053595477217572}
+  - {fileID: 114454058214025612}
+  - {fileID: 114577451613795150}
+  - {fileID: 114712464781545026}
+  - {fileID: 114687769762126684}
+  - {fileID: 114004761315588966}
+  - {fileID: 114035304491387798}
+  - {fileID: 114237819758884498}
+  - {fileID: 114956492640663570}
+--- !u!114 &114004761315588966
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: kwhei2p6
+  m_EditorClassIdentifier: 
+  variable:
+    name: Throwing
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114035304491387798
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: zzwjhvsh
+  m_EditorClassIdentifier: 
+  variable:
+    name: FirstRock
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114053595477217572
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: kiuevr9b
+  m_EditorClassIdentifier: 
+  variable:
+    name: P2
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114143063487922874
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: flztxxhu
+  m_EditorClassIdentifier: 
+  variable:
+    name: N2
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114237819758884498
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: bhm4egg7
+  m_EditorClassIdentifier: 
+  variable:
+    name: InventoryOpened
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114354005027849838
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: emxlco7c
+  m_EditorClassIdentifier: 
+  variable:
+    name: P1
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114360507924876796
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: dhjbpykt
+  m_EditorClassIdentifier: 
+  variable:
+    name: E1
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114393899893016002
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: efqmlzyq
+  m_EditorClassIdentifier: 
+  variable:
+    name: E2
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114425089975001438
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 8yscmyh2
+  m_EditorClassIdentifier: 
+  variable:
+    name: N1
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114454058214025612
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 1a12ater
+  m_EditorClassIdentifier: 
+  variable:
+    name: P3
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114464124493200756
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 432lja67
+  m_EditorClassIdentifier: 
+  variable:
+    name: E4
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114549596537701274
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: gu9x8ob0
+  m_EditorClassIdentifier: 
+  variable:
+    name: E3
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114564328571540758
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 0pd5id7k
+  m_EditorClassIdentifier: 
+  variable:
+    name: N3
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114577451613795150
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: berjr7cm
+  m_EditorClassIdentifier: 
+  variable:
+    name: GuardDialogue1
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114687769762126684
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: z4aa2w67
+  m_EditorClassIdentifier: 
+  variable:
+    name: HasEaten
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114712464781545026
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 7l46aj1k
+  m_EditorClassIdentifier: 
+  variable:
+    name: PriestDialogue1
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114956492640663570
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: c7olb55r
+  m_EditorClassIdentifier: 
+  variable:
+    name: MenuOpen
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0

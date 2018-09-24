@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488f3e5269e8c4fc39cc7a40c6cc8dba, type: 3}
+  m_Name: DatabaseDialogue
+  m_EditorClassIdentifier: 
+  defaultConfig:
+    dialogueSkin: {fileID: 1541903117895420, guid: 390f8b817ae5b1a428beb082d650ea90,
+      type: 2}
+    enableTypewritterEffect: 1
+    charactersPerSecond: 30

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0d00339f58d4376918ded2a84e3ffd, type: 3}
+  m_Name: Crouch
+  m_EditorClassIdentifier: 
+  type: 1
+  rtcSimple: {fileID: 221584420158690038}
+  rtcLocomotion: {fileID: 221193248242316838}
+  rtcOther: {fileID: 0}
+--- !u!221 &221193248242316838
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Locomotion
+  m_Controller: {fileID: 9100000, guid: b6a6c19ecfb68436399931e717cd57b5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 68088270d078a4b3ea1ea1b0ca4e98cd, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 99f4b1d0d3eb54545aa7bb5fe6c18acb, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 1dcd06396bac64aefaf054deb75bdb5d, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 23ee8402a67594718886d4a316072ab9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: d145f9322a64a4fc693819c9692cd9d4, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 0d369b8f60fc64ae98fd25a03c9e74c9, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 930e0f6e47bb44a45808dd7fb66570f1, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: ec9664c30fbc144c5a77f8edf5c2ba5a, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 930e0f6e47bb44a45808dd7fb66570f1, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 546c85a4375e14339b9aa2527202fb76, type: 3}
+  - m_OriginalClip: {fileID: 7400004, guid: 0a3060606e12f48d78bf569ef4b85b20, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 4e809dff3253c4366a45719d82a6746d, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 0a3060606e12f48d78bf569ef4b85b20, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: 1fcf1fc5670f94462b715db225d1e3c5, type: 3}
+  - m_OriginalClip: {fileID: 7400006, guid: 0a3060606e12f48d78bf569ef4b85b20, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 1fcf1fc5670f94462b715db225d1e3c5, type: 3}
+  - m_OriginalClip: {fileID: 7400008, guid: 0a3060606e12f48d78bf569ef4b85b20, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 4e809dff3253c4366a45719d82a6746d, type: 3}
+  - m_OriginalClip: {fileID: 7400002, guid: 341d228bc7a13426cb800c9a450e5eb0, type: 3}
+    m_OverrideClip: {fileID: 7400002, guid: ec9664c30fbc144c5a77f8edf5c2ba5a, type: 3}
+  - m_OriginalClip: {fileID: 7400000, guid: 341d228bc7a13426cb800c9a450e5eb0, type: 3}
+    m_OverrideClip: {fileID: 7400000, guid: 546c85a4375e14339b9aa2527202fb76, type: 3}
+--- !u!221 &221584420158690038
+AnimatorOverrideController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Simple
+  m_Controller: {fileID: 9100000, guid: 7e5e3872d84174d9a9ddf67745628fb5, type: 2}
+  m_Clips: []
