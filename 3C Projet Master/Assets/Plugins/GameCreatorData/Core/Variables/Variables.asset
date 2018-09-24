@@ -41,7 +41,7 @@ MonoBehaviour:
   m_Name: kwhei2p6
   m_EditorClassIdentifier: 
   variable:
-    name: Throwing
+    name: ThrowingSomething
     save: 0
     type: 3
     tags: 0

@@ -104,7 +104,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 855cd1b9aaafe4682b3f3097e0aa3151, type: 3}
-    m_FontSize: 38
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -137,7 +137,8 @@ MonoBehaviour:
   statusTracking: {fileID: 0}
   statusInactive: {fileID: 0}
   statusActive: {fileID: 0}
-  statusComplete: {fileID: 0}
+  statusComplete: {fileID: 1159756530014426, guid: f6f93f597d54a6d4ba15fd952875a4bc,
+    type: 2}
   statusFailed: {fileID: 0}
   statusAbandoned: {fileID: 0}
   subQuestsGroup: {fileID: 0}
@@ -221,7 +222,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1255939699082286}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1079.2655}
+  m_LocalPosition: {x: 0, y: 0, z: 134.11778}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224122941437005078}
@@ -231,7 +232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 662.43036, y: 478.72864}
+  m_AnchoredPosition: {x: 623.8345, y: 419.6305}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224894386432511030
@@ -249,8 +250,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 15, y: 0}
-  m_SizeDelta: {x: -70, y: 0}
+  m_AnchoredPosition: {x: 44, y: 0}
+  m_SizeDelta: {x: -18, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!225 &225660341978733304
 CanvasGroup:

@@ -1054,6 +1054,12 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 306562625}
+    - target: {fileID: 114767800552707182, guid: 472469d5532b57049b2b44a9cd94b711,
+        type: 2}
+      propertyPath: itemHolder.item
+      value: 
+      objectReference: {fileID: 114355717776029732, guid: 7db43c44761c8486cb3f2e9968376eb5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
   m_IsPrefabAsset: 0
@@ -1289,6 +1295,12 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 1471869712}
+    - target: {fileID: 114767800552707182, guid: 472469d5532b57049b2b44a9cd94b711,
+        type: 2}
+      propertyPath: itemHolder.item
+      value: 
+      objectReference: {fileID: 114355717776029732, guid: 7db43c44761c8486cb3f2e9968376eb5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
   m_IsPrefabAsset: 0
@@ -5294,6 +5306,7 @@ GameObject:
   - component: {fileID: 819050136}
   - component: {fileID: 819050135}
   - component: {fileID: 819050137}
+  - component: {fileID: 819050138}
   m_Layer: 0
   m_Name: Actions
   m_TagString: Untagged
@@ -5347,6 +5360,7 @@ MonoBehaviour:
   - {fileID: 819050134}
   - {fileID: 819050135}
   - {fileID: 819050137}
+  - {fileID: 819050138}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &819050132
@@ -5511,6 +5525,20 @@ MonoBehaviour:
   mainCameraMotor: 1
   cameraMotor: {fileID: 0}
   transitionTime: 0
+--- !u!114 &819050138
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 819050128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebd02693c4334590b04671f82f1ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  quest: {fileID: 114660375896551354, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  status: 2
 --- !u!1 &822591644
 GameObject:
   m_ObjectHideFlags: 0
@@ -6098,6 +6126,8 @@ GameObject:
   - component: {fileID: 885414499}
   - component: {fileID: 885414498}
   - component: {fileID: 885414501}
+  - component: {fileID: 885414503}
+  - component: {fileID: 885414502}
   m_Layer: 0
   m_Name: Actions
   m_TagString: Untagged
@@ -6145,7 +6175,9 @@ MonoBehaviour:
   actions:
   - {fileID: 885414499}
   - {fileID: 885414498}
+  - {fileID: 885414503}
   - {fileID: 885414501}
+  - {fileID: 885414502}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &885414498
@@ -6255,6 +6287,34 @@ MonoBehaviour:
       targetType: 2
       targetObject: {fileID: 0}
       inChildren: 1
+--- !u!114 &885414502
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885414495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebd02693c4334590b04671f82f1ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  quest: {fileID: 114438852538020350, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  status: 1
+--- !u!114 &885414503
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 885414495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebd02693c4334590b04671f82f1ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  quest: {fileID: 114242437011870016, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  status: 2
 --- !u!1 &897511204 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1304462923376304, guid: 472469d5532b57049b2b44a9cd94b711,
@@ -6782,6 +6842,7 @@ GameObject:
   - component: {fileID: 918742675}
   - component: {fileID: 918742677}
   - component: {fileID: 918742676}
+  - component: {fileID: 918742678}
   m_Layer: 0
   m_Name: Actions
   m_TagString: Untagged
@@ -6833,6 +6894,7 @@ MonoBehaviour:
   - {fileID: 918742673}
   - {fileID: 918742675}
   - {fileID: 918742676}
+  - {fileID: 918742678}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &918742671
@@ -7055,6 +7117,20 @@ MonoBehaviour:
       targetType: 2
       targetObject: {fileID: 0}
       inChildren: 1
+--- !u!114 &918742678
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 918742668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebd02693c4334590b04671f82f1ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  quest: {fileID: 114632845606473754, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  status: 2
 --- !u!1 &921867356
 GameObject:
   m_ObjectHideFlags: 0
@@ -8000,6 +8076,12 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 979637464}
+    - target: {fileID: 114767800552707182, guid: 472469d5532b57049b2b44a9cd94b711,
+        type: 2}
+      propertyPath: itemHolder.item
+      value: 
+      objectReference: {fileID: 114355717776029732, guid: 7db43c44761c8486cb3f2e9968376eb5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
   m_IsPrefabAsset: 0
@@ -8816,6 +8898,12 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 82425279}
+    - target: {fileID: 114767800552707182, guid: 472469d5532b57049b2b44a9cd94b711,
+        type: 2}
+      propertyPath: itemHolder.item
+      value: 
+      objectReference: {fileID: 114355717776029732, guid: 7db43c44761c8486cb3f2e9968376eb5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
   m_IsPrefabAsset: 0
@@ -10816,6 +10904,12 @@ Prefab:
       propertyPath: actions.Array.data[3]
       value: 
       objectReference: {fileID: 435666008}
+    - target: {fileID: 114767800552707182, guid: 472469d5532b57049b2b44a9cd94b711,
+        type: 2}
+      propertyPath: itemHolder.item
+      value: 
+      objectReference: {fileID: 114355717776029732, guid: 7db43c44761c8486cb3f2e9968376eb5,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 472469d5532b57049b2b44a9cd94b711, type: 2}
   m_IsPrefabAsset: 0
@@ -13171,6 +13265,7 @@ GameObject:
   - component: {fileID: 1726169546}
   - component: {fileID: 1726169545}
   - component: {fileID: 1726169544}
+  - component: {fileID: 1726169548}
   m_Layer: 0
   m_Name: Eat
   m_TagString: Untagged
@@ -13257,6 +13352,7 @@ MonoBehaviour:
   actions:
   - {fileID: 1726169545}
   - {fileID: 1726169544}
+  - {fileID: 1726169548}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &1726169547
@@ -13285,6 +13381,20 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1726169548
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1726169542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ebd02693c4334590b04671f82f1ddad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  quest: {fileID: 114934204436581838, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
+  status: 2
 --- !u!1 &1735874191 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 645c791e20e6ac5408364163c30f9706,
@@ -16348,8 +16458,8 @@ MonoBehaviour:
   - {fileID: 2032431320}
   dialogueTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0885ebff
-    m_LastClickedID: -1342200
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: 7232e0ff384ce1ff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

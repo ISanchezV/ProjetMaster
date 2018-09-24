@@ -41,52 +41,22 @@ MonoBehaviour:
   m_Name: d630cc50535e4eff890ba433a5c90dca
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Talk to your companions
     postProcess: 0
     translationID: 0
   description:
-    content: 
+    content: You should see how your companions are doing.
     postProcess: 0
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: d630cc50535e4eff890ba433a5c90dca
-  internalName: punch-7-princesses
-  status: 0
+  internalName: talk-to-your-companions
+  status: 1
   children:
   - {fileID: 114660375896551354}
   - {fileID: 114632845606473754}
   parent: {fileID: 114934204436581838}
   reactions: {fileID: 114034532345298364, guid: 06e70d963877df647bf95e220e8fc67d,
-    type: 2}
-  type: 0
-  progress: 0
---- !u!114 &114136459554440834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: de36ba328c44a4946805b50fa61d24b1, type: 3}
-  m_Name: e76a3f122b274332a1352678e333cedd
-  m_EditorClassIdentifier: 
-  title:
-    content: 
-    postProcess: 0
-    translationID: 0
-  description:
-    content: 
-    postProcess: 0
-    translationID: 0
-  sprite: {fileID: 0}
-  uniqueID: e76a3f122b274332a1352678e333cedd
-  internalName: destroy-9-potions
-  status: 0
-  children:
-  - {fileID: 114438852538020350}
-  parent: {fileID: 114242437011870016}
-  reactions: {fileID: 114180091735429010, guid: a510bdf1bd24a0c4bb6496b29a5dc1b9,
     type: 2}
   type: 0
   progress: 0
@@ -102,19 +72,19 @@ MonoBehaviour:
   m_Name: b607f0129e884a95a6717bcf890960a8
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Explore the camp
     postProcess: 0
     translationID: 0
   description:
-    content: 
+    content: Take a look around, be sure not to miss anything that could be helpful.
     postProcess: 0
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: b607f0129e884a95a6717bcf890960a8
-  internalName: wink-8-swords
-  status: 0
+  internalName: explore-the-camp
+  status: 1
   children:
-  - {fileID: 114136459554440834}
+  - {fileID: 114438852538020350}
   parent: {fileID: 114934204436581838}
   reactions: {fileID: 114405722207579828, guid: b1e00b27640725a40a072599ab45f838,
     type: 2}
@@ -132,19 +102,19 @@ MonoBehaviour:
   m_Name: 055e49341ef649668744247b0a72ca88
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Knock that apple down!
     postProcess: 0
     translationID: 0
   description:
-    content: 
+    content: It probably deserves it.
     postProcess: 0
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: 055e49341ef649668744247b0a72ca88
-  internalName: eat-9-green-teas
+  internalName: knock-the-apple-down
   status: 0
   children: []
-  parent: {fileID: 114136459554440834}
+  parent: {fileID: 114242437011870016}
   reactions: {fileID: 114996365096168336, guid: 0ff97e9a4d947e34da2eee581c2ce948,
     type: 2}
   type: 0
@@ -161,7 +131,7 @@ MonoBehaviour:
   m_Name: 46da3bba01d848e3a1c469524f044a6c
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Talk to the guard
     postProcess: 0
     translationID: 0
   description:
@@ -170,8 +140,8 @@ MonoBehaviour:
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: 46da3bba01d848e3a1c469524f044a6c
-  internalName: find-4-apples
-  status: 0
+  internalName: talk-to-the-guard
+  status: 1
   children: []
   parent: {fileID: 114129349779339928}
   reactions: {fileID: 114458634222362676, guid: a0b523779fb471243ad1b837f9b4adf5,
@@ -190,7 +160,7 @@ MonoBehaviour:
   m_Name: 42878ead2cd64554ade8d6d16f1e2d50
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Talk to the priest
     postProcess: 0
     translationID: 0
   description:
@@ -199,8 +169,8 @@ MonoBehaviour:
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: 42878ead2cd64554ade8d6d16f1e2d50
-  internalName: wink-2-potions
-  status: 0
+  internalName: talk-to-the-priest
+  status: 1
   children: []
   parent: {fileID: 114129349779339928}
   reactions: {fileID: 114146390556200066, guid: ce570904b4282b745a7ed3a8fd8b0f08,
@@ -219,17 +189,17 @@ MonoBehaviour:
   m_Name: b5902204236e45a4ac1b8db87239b78f
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Prepare to leave camp
     postProcess: 0
     translationID: 0
   description:
-    content: 
+    content: Be sure you're ready before leaving camp.
     postProcess: 0
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: b5902204236e45a4ac1b8db87239b78f
-  internalName: discover-5-inns
-  status: 0
+  internalName: prepare-to-leave-camp
+  status: 1
   children:
   - {fileID: 114129349779339928}
   - {fileID: 114242437011870016}
@@ -252,16 +222,16 @@ MonoBehaviour:
   m_Name: f4de3cfc6baf4083b7fbc2b0660c61f9
   m_EditorClassIdentifier: 
   title:
-    content: 
+    content: Eat your food
     postProcess: 0
     translationID: 0
   description:
-    content: 
+    content: You can't leave camp before eating.
     postProcess: 0
     translationID: 0
   sprite: {fileID: 0}
   uniqueID: f4de3cfc6baf4083b7fbc2b0660c61f9
-  internalName: eat-4-green-teas
+  internalName: eat
   status: 0
   children: []
   parent: {fileID: 114934204436581838}

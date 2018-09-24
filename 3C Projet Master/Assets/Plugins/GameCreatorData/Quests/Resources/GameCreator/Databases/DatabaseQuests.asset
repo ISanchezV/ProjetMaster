@@ -18,7 +18,6 @@ MonoBehaviour:
   - {fileID: 114660375896551354, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
   - {fileID: 114632845606473754, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
   - {fileID: 114242437011870016, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
-  - {fileID: 114136459554440834, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
   - {fileID: 114438852538020350, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
   - {fileID: 114985990164937006, guid: 620e3ae45035a4813a5a54ee1a03507e, type: 2}
   settings:
@@ -26,23 +25,23 @@ MonoBehaviour:
     questsHUDSkin: {fileID: 0}
   questsTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4bbf3ff
-    m_LastClickedID: -803932
-    m_ExpandedIDs: 00aaf3ff76acf3ff0eb4f3ffa4bbf3ff00000000
+    m_SelectedIDs: f4140000
+    m_LastClickedID: 5364
+    m_ExpandedIDs: 00aaf3ff76acf3ff0eb4f3ffa4bbf3ff00000000f8140000fa140000fc140000fe140000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: discover-5-inns
-      m_OriginalName: discover-5-inns
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: -803932
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 0}
     m_SearchString: 
