@@ -17,7 +17,6 @@ public class InstantiateThrowableObject : MonoBehaviour {
 
 	public GameObject outline;
 
-
 	// Use this for initialization
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
@@ -31,6 +30,7 @@ public class InstantiateThrowableObject : MonoBehaviour {
 			tp.drawDebugOnPrediction = true;
 
 			newParent = GameObject.FindGameObjectWithTag ("ThrowPoint").transform;
+			rb.isKinematic = true;
 			transform.SetParent (newParent);
 			transform.position = newParent.transform.position;
 			transform.rotation = newParent.transform.rotation;

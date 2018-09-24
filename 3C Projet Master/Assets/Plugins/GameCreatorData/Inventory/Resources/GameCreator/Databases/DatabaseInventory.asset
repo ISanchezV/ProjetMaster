@@ -16,11 +16,12 @@ MonoBehaviour:
     - {fileID: 114355717776029732}
     recipes: []
   inventorySettings:
-    inventoryUIPrefab: {fileID: 0}
-    onDragGrabItem: 1
-    cursorDrag: {fileID: 0}
+    inventoryUIPrefab: {fileID: 1776935227048216, guid: f4cbc33eaa8d44d37a991dfef3ac3592,
+      type: 2}
+    onDragGrabItem: 0
+    cursorDrag: {fileID: 2800000, guid: 21b611b5099004ff38798dfed2a007ad, type: 3}
     cursorDragHotspot: {x: 0, y: 0}
-    dragItemsToCombine: 1
+    dragItemsToCombine: 0
     inventoryStopTime: 0
     canDropItems: 1
     dropItemMaxDistance: 2
