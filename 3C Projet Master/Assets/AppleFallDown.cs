@@ -8,31 +8,26 @@ public class AppleFallDown : MonoBehaviour {
 	public float appleCount = 0;
 	Rigidbody rb;
 
-	void OnTriggerEnter(Collider c) {
-		if (c.CompareTag ("Rock")) {
-			appleCount++;
-			VariablesManager.SetGlobal ("AppleCount", appleCount);
-		}
-	}
-
 	void OnCollisionEnter(Collision col) {
 		if (col.collider.CompareTag ("Rock")) {
-			transform.SetParent (null);
-			rb.useGravity = true;
+			if (appleCount == 4) {
+				transform.SetParent (null);
+				rb.useGravity = true;
+				rb.isKinematic = false;
+			} else {
+				appleCount++;
+				VariablesManager.SetGlobal ("AppleCount", appleCount);
+			}
 
 		}
 	}
 
 	void Start() {
 		rb = GetComponent<Rigidbody> ();
+
 	}
 
 
-	void Update() {
-		if (appleCount == 4) {
-			GetComponent<Collider> ().isTrigger = false;
-		}
-	}
 
 
 }

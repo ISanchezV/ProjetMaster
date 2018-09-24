@@ -19,9 +19,11 @@ MonoBehaviour:
   - {fileID: 114425089975001438}
   - {fileID: 114143063487922874}
   - {fileID: 114564328571540758}
+  - {fileID: 114746793708760416}
   - {fileID: 114354005027849838}
   - {fileID: 114053595477217572}
   - {fileID: 114454058214025612}
+  - {fileID: 114070107812525696}
   - {fileID: 114577451613795150}
   - {fileID: 114712464781545026}
   - {fileID: 114687769762126684}
@@ -30,6 +32,8 @@ MonoBehaviour:
   - {fileID: 114237819758884498}
   - {fileID: 114956492640663570}
   - {fileID: 114714524696904324}
+  - {fileID: 114835063634958398}
+  - {fileID: 114345370160568616}
 --- !u!114 &114004761315588966
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -147,6 +151,45 @@ MonoBehaviour:
     varRbd:
       value: {fileID: 0}
   isExpanded: 0
+--- !u!114 &114070107812525696
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 0ypj0w3h
+  m_EditorClassIdentifier: 
+  variable:
+    name: CheckN3
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
 --- !u!114 &114143063487922874
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -199,6 +242,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variable:
     name: InventoryOpened
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114345370160568616
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: do1nwswg
+  m_EditorClassIdentifier: 
+  variable:
+    name: BoxOpened
     save: 0
     type: 3
     tags: 0
@@ -692,7 +774,85 @@ MonoBehaviour:
       value: {fileID: 0}
     varRbd:
       value: {fileID: 0}
-  isExpanded: 1
+  isExpanded: 0
+--- !u!114 &114746793708760416
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: nk69mymk
+  m_EditorClassIdentifier: 
+  variable:
+    name: N4
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
+--- !u!114 &114835063634958398
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 409a6d6eb973c4d859c03daf1b062467, type: 3}
+  m_Name: 8pc88xsm
+  m_EditorClassIdentifier: 
+  variable:
+    name: GlitchChestLook
+    save: 0
+    type: 3
+    tags: 0
+    varStr:
+      value: 
+    varNum:
+      value: 0
+    varBol:
+      value: 0
+    varCol:
+      value: {r: 1, g: 1, b: 1, a: 1}
+    varVc2:
+      value: {x: 0, y: 0}
+    varVc3:
+      value: {x: 0, y: 0, z: 0}
+    varTxt:
+      value: {fileID: 0}
+    varSpr:
+      value: {fileID: 0}
+    varObj:
+      value: {fileID: 0}
+    varTrn:
+      value: {fileID: 0}
+    varRbd:
+      value: {fileID: 0}
+  isExpanded: 0
 --- !u!114 &114956492640663570
 MonoBehaviour:
   m_ObjectHideFlags: 3

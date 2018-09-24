@@ -17,8 +17,7 @@ MonoBehaviour:
   - id: 1
     category: N
     questions: Does your mood often go up and down during a single session of game?
-    ingameactions: Fast mood changes (Affectiva) after frustrating situation (a puzzle
-      you're forced to lose)
+    ingameactions: 'Fast mood changes (Affectiva) '
     answers: 0
     value: 0
     totalvalue: -1
@@ -203,6 +202,14 @@ MonoBehaviour:
     questions: Are you the kind of person who enjoys more playing in a community,
       even if that means respecting its rules?
     ingameactions: Choosing to go save your companions knowing they put rules on you
+    answers: 0
+    value: 0
+    totalvalue: 0
+    personalitytype: 
+  - id: 0
+    category: N
+    questions: 
+    ingameactions: Anger after fristrating situation (Affectiva)
     answers: 0
     value: 0
     totalvalue: 0

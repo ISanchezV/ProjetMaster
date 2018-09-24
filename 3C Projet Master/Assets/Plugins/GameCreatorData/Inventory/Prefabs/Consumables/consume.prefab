@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 114019619527697710}
   - component: {fileID: 114800359062416490}
   - component: {fileID: 114030851760660286}
+  - component: {fileID: 114563400081567768}
   m_Layer: 0
   m_Name: consume
   m_TagString: Untagged
@@ -57,6 +58,7 @@ MonoBehaviour:
   actions:
   - {fileID: 114800359062416490}
   - {fileID: 114030851760660286}
+  - {fileID: 114563400081567768}
   executingIndex: -1
   isExecuting: 0
 --- !u!114 &114030851760660286
@@ -99,6 +101,31 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114563400081567768
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1208283589291458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d234afa27d82846abbf91e13c4f5eedf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isExpanded: 1
+  valueFrom: 2
+  variable:
+    variableType: 0
+    global:
+      allowTypesMask: 8
+      name: InventoryOpened
+    local:
+      allowTypesMask: 8
+      name: 
+      targetType: 2
+      targetObject: {fileID: 0}
+      inChildren: 1
+  value: 0
 --- !u!114 &114800359062416490
 MonoBehaviour:
   m_ObjectHideFlags: 3
